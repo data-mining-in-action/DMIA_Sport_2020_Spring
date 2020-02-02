@@ -4,11 +4,12 @@
 
 ## Installation 
 ```
-pip install git+https://github.com/gleberof/DMIA_sport_homework.git
+pip install -e "git+https://github.com/data-mining-in-action/DMIA_Sport_2020_Spring.git#egg=hwcheck&subdirectory=Homework checker"
 ```
 or 
 ```
-git clone https://github.com/gleberof/DMIA_sport_homework.git
+git clone https://github.com/data-mining-in-action/DMIA_Sport_2020_Spring.git
+cd "DMIA_Sport_2020_Spring/Homework checker"
 python setup.py install
 ```
 
